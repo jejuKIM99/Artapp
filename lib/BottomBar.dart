@@ -6,7 +6,7 @@ class BottomBar extends StatefulWidget {
 }
 
 class _BottomBarState extends State<BottomBar> {
-  int _currentIndex = 1; // 초기에 Home이 선택되도록 설정
+  int _currentIndex = 1;
 
   @override
   Widget build(BuildContext context) {
