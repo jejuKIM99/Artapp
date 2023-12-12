@@ -1,2 +1,2 @@
 # Readme
-이미지 파일들 로드가 안됩니다.
+Modified the images that were not loaded to be received in URL format.
