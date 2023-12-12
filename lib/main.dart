@@ -59,7 +59,7 @@ class MyHomePage extends StatelessWidget {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Container(
-                        margin: EdgeInsets.only(top: 50.0, left: 20.0),
+                        margin: EdgeInsets.only(top: 20.0, left: 20.0),
                         alignment: Alignment.topLeft,
                         child: Text(
                           'Explore the most popular artworks',
@@ -211,6 +211,13 @@ class MyHomePage extends StatelessWidget {
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(40.0),
                 color: Colors.transparent,
+                boxShadow: [
+                  BoxShadow(
+                    color: Colors.black.withOpacity(1.0),
+                    offset: Offset(0.0, 3.0),
+                    blurRadius: 4.0,
+                  ),
+                ],
               ),
               child: ClipRRect(
                 borderRadius: BorderRadius.circular(40.0),

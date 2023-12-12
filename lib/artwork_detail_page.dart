@@ -39,6 +39,13 @@ class _ArtworkDetailPageState extends State<ArtworkDetailPage> {
                   image: NetworkImage(widget.imageUrl),
                   fit: BoxFit.cover,
                 ),
+                boxShadow: [
+                  BoxShadow(
+                    color: Colors.black.withOpacity(0.9),
+                    offset: Offset(0.0, 2.0),
+                    blurRadius: 15.0,
+                  ),
+                ],
               ),
             ),
             SizedBox(height: 20.0),
